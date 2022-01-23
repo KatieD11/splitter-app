@@ -1,0 +1,31 @@
+.card {
+    background: rgb(26, 70, 74);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.resetBtn {
+    text-transform: uppercase;
+    width: 100%;
+    margin: auto 5px 0;
+    padding: 10px;
+    background: rgb(0, 182, 157);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(26, 70, 74);
+}
+
+.resetBtn:disabled, .resetBtn:disabled:hover {
+    background: rgb(0,93,97);
+    cursor:not-allowed;
+}
+
+.resetBtn:hover {
+    background: rgb(138, 228, 218);
+    cursor: pointer;
+}

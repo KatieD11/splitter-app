@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+.inputContainer {
+  padding: 0 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input,
+input:hover,
+input:focus,
+input:active {
+  outline: none;
+  border: none;
+  background: none;
+  font-family: "Space Mono", monospace !important;
+  font-size: 22px;
+}
+
+input {
+  text-align: right;
+  width: 80%;
+}
+
+.inputNumberField {
+  background: rgb(244, 248, 250);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.inputNumberField:active, .inputNumberField:hover, .inputNumberField:focus {
+    border: 2px solid rgb(93, 191, 174);
+}
+
+.inputNumberField.invalid {
+  border: 2px solid rgb(165, 95, 79);
+}
+
+.inputLabel {
+  color: rgb(97, 112, 114);
+}
+
+.tipButton {
+  font-size: 22px;
+  font-weight: bold;
+  background: rgb(26, 70, 74);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+}
+
+.tipButton:active {
+  background: rgb(93, 191, 174);
+}
+
+.tipButton:hover {
+    background: rgb(174, 230, 223);
+    cursor: pointer;
+  }
+
+  .tipSelected {
+    background: rgb(93, 191, 174);
+  }
+
+  .customTip {
+    background: rgb(244, 248, 250);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .flexContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .invalidText {
+    color: rgb(165, 95, 79);
+  }
+
+  @media screen and (max-width: 700px) {
+    .inputContainer{
+      padding: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .tipButton {
+      padding: 10px;
+    }
+  }
