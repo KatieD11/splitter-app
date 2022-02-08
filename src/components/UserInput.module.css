@@ -51,11 +51,11 @@ input {
 }
 
 .inputNumberField:active, .inputNumberField:hover, .inputNumberField:focus {
-    border: 2px solid rgb(93, 191, 174);
+  outline: 2px solid rgb(93, 191, 174);
 }
 
 .inputNumberField.invalid {
-  border: 2px solid rgb(165, 95, 79);
+  outline: 2px solid rgb(165, 95, 79);
 }
 
 .inputLabel {
