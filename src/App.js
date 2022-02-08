@@ -40,8 +40,8 @@ function App() {
     setTipSelected(null);
     setCustomTip('');
     //setBillAmount(null);
-    setBillAmount(0);
-    setNumPeople(0);
+    setBillAmount('');
+    setNumPeople('');
   };
 
   useEffect(() => {
