@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/splitter-app/static/css/main.459cb5c5.css",
+    "main.css": "/splitter-app/static/css/main.155e3531.css",
     "main.js": "/splitter-app/static/js/main.650eb3e0.js",
     "static/js/787.f422afe6.chunk.js": "/splitter-app/static/js/787.f422afe6.chunk.js",
     "static/media/logo.svg": "/splitter-app/static/media/logo.3cc0528bd46321d63d85702006069614.svg",
     "static/media/icon-dollar.svg": "/splitter-app/static/media/icon-dollar.9f9be3534a9295a6595764d63a7bf3a3.svg",
     "static/media/icon-person.svg": "/splitter-app/static/media/icon-person.65bfd20465dd1d2cb58c0b53e1160442.svg",
     "index.html": "/splitter-app/index.html",
-    "main.459cb5c5.css.map": "/splitter-app/static/css/main.459cb5c5.css.map",
+    "main.155e3531.css.map": "/splitter-app/static/css/main.155e3531.css.map",
     "main.650eb3e0.js.map": "/splitter-app/static/js/main.650eb3e0.js.map",
     "787.f422afe6.chunk.js.map": "/splitter-app/static/js/787.f422afe6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.459cb5c5.css",
+    "static/css/main.155e3531.css",
     "static/js/main.650eb3e0.js"
   ]
 }
