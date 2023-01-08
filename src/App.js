@@ -33,15 +33,16 @@ function App() {
     setTipSelected(val);
     setCustomTip(val);
   };
+  // add comment
 
   const resetHandler = () => {
     setInputs({ billAmount: 0, tipPercent: 0, numPeople: null });
 
     setTipSelected(null);
-    setCustomTip('');
+    setCustomTip("");
     //setBillAmount(null);
-    setBillAmount('');
-    setNumPeople('');
+    setBillAmount("");
+    setNumPeople("");
   };
 
   useEffect(() => {
